@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500&family=Poppins:ital,wght@0,400;1,100;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+list-style: none;
+}
+html{
+    font-size: 62.5%;
+}
+.main-div{
+    background-color: rgb(244, 205, 239) ;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.in-div{
+    width: 40vw;
+    background-color: aliceblue;
+    padding: 40px 90px 40px 90px;
+    border-radius: 1.1rem;
+    box-shadow: 0 1.2rem 1.2rem -0.06rem  rgba(0, 0, 0, 0.4);
+}
+.in-div h2{
+    font-size: 29px;
+    font-weight: 700;
+    margin-top: 1rem 0 4rem 0;
+}
+.in-div li{
+     font-size: 18px;
+     margin-top: 1.5rem;
+     font-family: 'Open Sans', sans-serif;;
+     font-weight: 300;
+}
+input{
+    cursor: pointer;
+}
+#submit , .btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 3rem;
+    background-color: #68aef4;
+    border-radius: 8px 10px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #0984e3;
+    border-radius: 8px 10px;
+}
+#score{
+    background-color: rgb(194, 170, 133);
+    margin-top: 3rem;
+    padding:  3rem 4rem ;
+    box-shadow: 0 1.2rem 1.2rem -0.06rem  rgba(0, 0, 0, 0.4);
+}
+#score .btn{
+    margin-top: 2rem;
+    background-color: rgb(152, 223, 223);
+    color: #2d3436;
+}
+#score .btn:hover{
+    background-color: rgb(64, 244, 244);
+    color: #fff;
+}
+
+#score h3{
+    font-size: 3rem;
+    text-align: center;
+}
+.cmpt{
+    display: none;
+}
+@media screen and (max-width:600px){
+    .in-div h2{
+        font-size: 19px;
+    }
+    .in-div li{
+        font-size: 10px;
+        margin-top: 0.8rem;
+     
+   }
+}
